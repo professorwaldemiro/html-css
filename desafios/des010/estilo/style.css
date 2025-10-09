@@ -63,7 +63,7 @@ main a:hover {
 }
 
 nav {
-    text-align: right;
+    text-align: left;
     padding: 10px;
 }
 nav > a {
