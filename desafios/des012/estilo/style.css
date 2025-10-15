@@ -13,6 +13,7 @@ header {
 header h1 {
     font-variant: small-caps;
     font-style: italic;
+    font-size: 4vw;
 
 }
 
@@ -21,16 +22,39 @@ section {
     padding-bottom: 10vh;
     padding-top: 10vh;
     line-height: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Helvetica, sans-serif, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: large;
+    font-size: 3vw;
+    
 }
 
 section.normal > p {
-    background-color: white;
-    width: 450px;
-
+            
 }
-section.imagem  {
-    background-color: antiquewhite;
-    width: 450px;
+
+section.imagem {
+    background-attachment: fixed;
+    background-size: cover;
+    box-shadow: inset 5px 5px 5px 0px rgba(0, 0, 0, 0.336);
+    
+}
+
+section.imagem > p {
+    color: white;
+    
+}
+
+section#img01 {
+    background-image: url(../imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+
+section#img02 {
+    background-image: url(../imagens/background002.jpg);
+    background-position: left;
+    background-size: cover;
 }
 
 footer {
