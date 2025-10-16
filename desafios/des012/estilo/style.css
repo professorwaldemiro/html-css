@@ -36,8 +36,8 @@ section.normal > p {
 section.imagem {
     background-attachment: fixed;
     background-size: cover;
-    box-shadow: inset 5px 5px 5px 0px rgba(0, 0, 0, 0.336);
-    
+    box-shadow: 10px 5px 5px 5px rgba(0, 0, 0, 0.233);
+    border-radius: 10px;
 }
 
 section.imagem > p {
