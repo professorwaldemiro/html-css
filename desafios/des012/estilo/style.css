@@ -5,9 +5,20 @@ html, body {
     min-height: 100vh;
 }
 
+a:hover {
+    background-color: aqua;
+    border-radius: 5px;
+}
+footer > p > a {
+    transition-duration: 3s;
+}
+
 header {
     padding: 30px;
     text-align: center;
+}
+header > p > a {
+    transition-duration: 3s;
 }
 
 header h1 {
