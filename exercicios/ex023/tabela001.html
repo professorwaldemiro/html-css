@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <link rel="shortcut icon" href="favicon.ico.png" type="image/x-icon">
+</head>
+    <style>
+
+        table {
+            width: 450px;
+            border-collapse: collapse;
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 6px;
+            
+        }
+
+        td.dado {
+            background-color: rgb(229, 255, 0);
+        }
+
+        tr.linha {
+            background-color: azure;
+        }
+    </style>
+<body>
+    <h1>Primeira tabela em HTML</h1>
+    <!--
+    Hierarquia de tabelas
+        table = tabela
+            Table Row = Linha de tabela
+                table Header = Cabeçalho de tabela
+                Table Data = dados de tabela
+    
+    -->
+    
+    <table>
+        <tr>
+            <td>A1</td>
+            <td>B1</td>
+            <td>C1</td>
+        </tr>
+        <tr>
+            <td class="dado">A2</td>
+            <td>B2</td>
+            <td>C2</td>
+        </tr>
+        <tr>
+            <td>A3</td>
+            <td>B3</td>
+            <td>C3</td>
+        </tr>
+        <tr class="linha">
+            <td>A4</td>
+            <td>B4</td>
+            <td>C4</td>
+        </tr>
+    </table>
+</body>
+</html>
