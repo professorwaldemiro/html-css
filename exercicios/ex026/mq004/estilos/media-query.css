@@ -1,6 +1,12 @@
 @charset "UTF-8";
 
 /*Todas as demais midias*/
+/* Typical Device BreakPoint
+Celular
+Tablet
+pc
+tv
+*/
 
 @media print {
     
