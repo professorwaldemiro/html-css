@@ -13,10 +13,12 @@ html {
     height: 100vh;
 }
 body {
-    background: black url(../imagens/back-phone.jpg) no-repeat;
-    background-size: cover;
+            
+    background-image: url(../imagens/back-phone.jpg);
     background-position: center center;
 }
+
+
 main {
     background: rgba(255, 255, 255, 0.753);
     width: 90vw;   

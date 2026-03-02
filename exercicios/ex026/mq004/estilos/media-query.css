@@ -2,12 +2,64 @@
 
 /*Todas as demais midias*/
 /* Typical Device BreakPoint
-Celular
-Tablet
-pc
-tv
+-----------------------------
+Pequenas telas: até 600px 
+Celular: 601 a 700px
+Tablet: 701px a 768px
+pc: 769px a 1279px
+Grandes telas: > 1280px
+-----------------------------
 */
 
-@media print {
-    
+@media print { /*Impressora*/
+    body {
+        background-image: url(../imagens/back-print.jpg);
+    }
+        img#phone { display: none;}
+        img#tablet {display: none;}
+        img#print { display: block;}
+        img#pc { display: none;}
+        img#tv { display: none;}
+}
+
+    main {
+        border: 2px solid black;
+        border-radius: 6px;
+    }
+    main::after {
+        content: 'Esta versão para impressão foi feita por miroinsp@hotmail.com' ;
+    }
+
+@media screen and (min-width: 701px) and (max-width: 768px){/*Tablet*/
+    body {
+        background-image: url(../imagens/back-tablet.jpg);}
+        img#phone { display: none;}
+        img#tablet {display: block;}
+        img#print { display: none;}
+        img#pc { display: none;}
+        img#tv { display: none;}
+ }
+
+@media screen and (min-width: 769px) and (max-width: 1279px) {/*Desktop*/
+ 
+    body {
+        background-image: url(../imagens/back-pc.jpg);
+    }
+        img#phone { display: none;}
+        img#tablet {display: none;}
+        img#print { display: none;}
+        img#pc { display: block;}
+        img#tv { display: none;}
+}
+
+
+@media screen and (min-width: 1280px) {/*Telas grandes*/
+    body {
+        background-image: url(../imagens/back-tv.jpg);
+    }
+    img#phone { display: none;}
+    img#tablet {display: none;}
+    img#print { display: none;}
+    img#pc { display: none;}
+    img#tv { display: block;}
 }
