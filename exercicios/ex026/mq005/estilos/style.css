@@ -13,6 +13,7 @@ html, body {
 
 header {
     background-color: lightblue;
+    cursor: pointer;
 
 }
 header > h1:hover {
@@ -22,11 +23,26 @@ header > h1:hover {
 header > h1 {
     padding: 10px;
     text-align: center;
-
 }
+
+span#burguer {
+    background-color: brown;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}   
+
+span#burguer:hover {
+    background-color: white;
+    color: black;
+}
+
 menu {
     background-color: rgb(9, 221, 221);
-    display: block;
+    display: none;
+
 }
 
 menu > ul {
