@@ -7,27 +7,30 @@
     <STyle>
         div.container {
             background-color: brown;
+            
             display: flex;
-
+            flex-flow: row nowrap;
+            
         }
         div.item {
             background-color: aqua;
             border: 2px solid black ;
-            text-align: center;
-            flex: auto;
-
+            text-align: center;       
+            
+            flex-basis: 150px;          
+            
         }
     </STyle>
 </head>
 <body>
     <div class="container">
         <div class="item">A</div>
-        <div class="item">B</div>
-        <div class="item">D</div>
+        <div class="item">Outro conteúdo.</div>
+        <div class="item">C</div>
+        <div class="item">Um conteúdo maior.</div>
         <div class="item">E</div>
-        <div class="item">F</div>
+        <div class="item">Conteúdo que ocupa mais espaço para testar.</div>
         <div class="item">G</div>
-       
 
     </div>
 </body>
