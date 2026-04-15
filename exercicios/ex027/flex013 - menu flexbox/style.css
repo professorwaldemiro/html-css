@@ -25,11 +25,12 @@ header {
     align-items: center;
 }
 header > h1 {
-    border: 1px solid black;    
+    /* border: 1px solid black; */    
     flex: 0 0 200px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.493);
 }
 header > nav {
-    border: 1px dotted black;
+    /* border: 1px dotted black; */
     
     display: flex;
     flex-flow:row wrap;
@@ -41,14 +42,14 @@ header > nav > a {
     color: white;
     padding: 5px;
     margin: 5px;
-    border-radius: 5px;
+    border-radius: 8px;
     text-align: center;
     text-decoration: none;
 }
 header > nav > a:hover {
     background-color: white;
     color: black;
-    transition: background-color 1s;
+    transition: background-color .6s;
 }
 
 main {
